@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) {
+	header.flex-container {
+		background-color: #80DEEA;
+		overflow: initial;
+		height: initial;
+		font-family: 'Merriweather Sans', sans-serif;
+	}
+	.barra-menu #boton-menu {
+		display: block;
+	}
+	nav {
+		flex-direction: column;
+		justify-content: center;
+		padding: 1em;
+	}
+	ul#menu {
+		flex-direction: column;
+		padding: 1em;
+	}
+	.barra-menu ul li a{
+		overflow: hidden;
+		padding: 1em;
+	}
+	.barra-menu ul li a:hover{
+		background-color: #81D4FA;
+		overflow: hidden;
+	}
+}
